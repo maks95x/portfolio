@@ -3,7 +3,7 @@
 }
 
 img {
-  max-width: 100%;
+  max-width: 95%;
 }
 
 body {
@@ -160,7 +160,8 @@ body {
   max-width: 100%;
 }
 
-
+.projects-slide img {
+  margin-left: 5px;
 }
 
 .project-text {
@@ -384,6 +385,7 @@ body {
 @media (max-width: 564px) {
   .hero {
     padding-bottom: 75px;
+    padding-top: 50px;
   }
 
   .hero-header {
