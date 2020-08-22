@@ -79,6 +79,7 @@ body {
   font-size: 16px;
   line-height: 28px;
   max-width: 420px;
+  margin: 0;
   margin-bottom: 38px;
 }
 
@@ -147,17 +148,26 @@ body {
   background: linear-gradient(180deg, #000000 1.08%, rgba(0, 0, 0, 0) 94.49%);
 }
 
+.projects-slider {
+  padding: 2.5px;
+}
+
 .projects-slide {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin-left: 1px;
+  margin: 1px;
+  max-width: 100%;
+}
+
+
 }
 
 .project-text {
   flex-basis: 60%;
   display: flex;
   flex-wrap: wrap;
+  padding: 2px;
 }
 
 .project-title {
@@ -224,7 +234,7 @@ body {
 /* Contacts */
 .contacts-form {
   background: #ffffff;
-  box-shadow: -5px 5px 0px #3b3b39;
+  box-shadow: -5px 5px 0px #ffc41d;
   border-radius: 5px;
   max-width: 380px;
   padding: 40px 48px 49px;
@@ -276,7 +286,7 @@ body {
 }
 
 .contacts-text {
-  flex-basis: 50%;
+  flex-basis: 45%;
 }
 
 .contacts-data {
@@ -391,11 +401,11 @@ body {
 
   .hero-avatar {
     order: 0;
-    width: 113px;
-    height: 113px;
+    width: 135px;
+    height: 135px;
     border-width: 4px;
     background-size: 100%;
-    background-position: center top;
+    background-position: center top 1px;
   }
 
   .hero-title {
@@ -478,5 +488,9 @@ body {
     line-height: 16px;
     display: block;
     margin-bottom: 13px;
+  }
+
+  .footer-section {
+    padding-bottom: 20px;
   }
 }
